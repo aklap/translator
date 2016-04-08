@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR Translate</title>
+    <!-- Optical Character Recognition library -->
+    <script src="/javascripts/ocrad.js"></script>
+    <!-- icons -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> 
+</head>
+<body>
+    <!-- basic page layout -->
+<div class="container">
+    <!-- canvas -->
+    <div class="row">
+        <div class="twelve columns offset-by-three">
+            <canvas id="canvas" width="300" height="300"></canvas>
+        </div>
+    </div>
+    <!-- upload button -->
+    <div class="row">
+        <div class="twelve columns offset-by-three">
+            <h6>Upload an image (JPEG, PNG, GIF, BMP, SVG, or NetPBM) to read the text.</h6>
+            <input type="file" id="input">
+        </div>    
+    </div>  
+    <!-- converted text -->
+    <div class="row">
+        <div class="twelve columns">
+            <div class="text">
+                <h2 class="output">I read:</h2>
+                <p id="new-text" class="align-center output"></p>
+                <a href=" http://translate.yandex.com/">"Powered by Yandex.Translate"</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- end of layout -->
+
+    <!-- scripts -->
+    <script src="/javascripts/ocr.js"></script>
+    <script src="/javascripts/translate.js"></script>
+</body>
+</html>

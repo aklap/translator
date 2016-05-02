@@ -1,8 +1,8 @@
 # translator
 --
-Translator is an app to explore OCR, or "optical character recognition." It grew out of the toy react app that I previously made, billSplit. I originally wanted to have an app where I could take a picture of a bill, parse the text and dollar amounts.
+Translator is an app to explore OCR, or "optical character recognition." It grew out of the React app that I previously made, billSplit. I originally wanted to have an app where I could take a picture of a bill, convert the image to text.
 
-Instead, Translator accepts images as JPEG, PNF and TIFF, converts the image to text, then takes the text and translates it into the language of your choice via an API. That's the theory.  
+Instead, Translator accepts images as JPEG, PNF and TIFF, converts the image to text, then takes the text and should translate it into the language of your choice via an API. 
 
 What I Used
 --
@@ -10,11 +10,11 @@ I ended up using node.js for the server, JavaScript, and a library for OCR that 
 
 Thoughts
 --
-I spent hours trying to find a suitable OCR library in a language that I knew and then trying to find one with decent documentation that had been maintained. Most of the libraries look like they havent been updated in at least 7 months to a year. OCRAD seemed like it was the well known/reliable of the bunch.
+I spent hours trying to find a suitable OCR library in a language that I knew and then trying to find one with decent documentation that had been maintained. Most of the libraries look like they havent been updated in at least 7 months to a year. OCRAD seemed like it was the most well known/reliable of the bunch.
 
-One thing that helped me was Iris Classon's tutorial and [blog post](http://irisclasson.com/category/optical-character-recognition/). *Note: most of the material I found is dated; this blog post is from 2014 so ymmv, (your mileage may vary).
+One thing that helped me was Iris Classon's tutorial and [blog post](http://irisclasson.com/category/optical-character-recognition/). *Note: most of the material I found is dated; this blog post is from 2014.
 
-Even with that tutorial, with the paucity of documentation on OCR it took lots of trial and error to get it to work correctly.
+Even with that tutorial, with the paucity of documentation on OCR, it took lots of trial and error to get it to work correctly.
 
 Issues with OCR
 --

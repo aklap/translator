@@ -2,11 +2,24 @@ body {
     background-color: white;
 }
 
-#canvas {
-    border: 5px solid purple;
+.image {
+    text-align: center;
 }
 
-.text { border: 1px solid black; }
+
+#canvas {
+    border: 5px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.text { 
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
 .output {
     text-align: center;

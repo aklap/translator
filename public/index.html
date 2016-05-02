@@ -10,38 +10,23 @@
     <!-- fonts -->
     <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css"> 
 </head>
 <body>
-    <!-- basic page layout -->
-<div class="container">
     <!-- canvas -->
-    <div class="row">
-        <div class="twelve columns offset-by-three">
-            <canvas id="canvas" width="300" height="300"></canvas>
-        </div>
+    <div class="image">
+        <h2>I saw:</h2>
+        <canvas id="canvas" width="300" height="300"></canvas>
     </div>
     <!-- upload button -->
-    <div class="row">
-        <div class="twelve columns offset-by-three">
-            <h6>Upload an image (JPEG, PNG, GIF, BMP, SVG, or NetPBM) to read the text.</h6>
-            <input type="file" id="input">
-        </div>    
-    </div>  
+    <!--         <h6>Upload an image (JPEG, PNG, GIF, BMP, SVG, or NetPBM) to read the text.</h6>
+            <input type="file" id="input"> -->
     <!-- converted text -->
-    <div class="row">
-        <div class="twelve columns">
-            <div class="text">
-                <h2 class="output">I read:</h2>
-                <p id="new-text" class="align-center output"></p>
-                <a href=" http://translate.yandex.com/">"Powered by Yandex.Translate"</a>
-            </div>
-        </div>
+    <div class="text">
+        <h2 class="output">I read:</h2>
+        <p id="new-text" class="align-center output"></p>
+        <a href=" http://translate.yandex.com/">Powered by Yandex.Translate</a>
     </div>
-</div>
-    <!-- end of layout -->
 
     <!-- scripts -->
     <script src="/javascripts/ocr.js"></script>

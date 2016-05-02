@@ -1,5 +1,3 @@
-* Translator
-
 Description:
 --
 Translator is an app that allows you to upload an image, convert it to text and then convert the text into a different language. It's like a pocked translator and was inspired by the billSplit app I made.

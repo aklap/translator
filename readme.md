@@ -1,4 +1,4 @@
-*Translator
+* Translator
 
 Description:
 --
@@ -6,9 +6,9 @@ Translator is an app that allows you to upload an image, convert it to text and 
 
 Tools:
 --
--OCRAD.js, a library for OCR using Tesseract engine
--JavaScript
--Yandex API for translation
+- OCRAD.js, a library for OCR using Tesseract engine
+- JavaScript
+- Yandex API for translation
 
 Issues:
 --
